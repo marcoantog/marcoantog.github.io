@@ -1,0 +1,84 @@
+body {
+    background-color: #F4EBD9;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #77685D;
+    letter-spacing: -1px;
+}
+
+#img {
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #058ED9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.link {
+    background-color: #A39A92;
+    color: white;
+    border-radius: 100px;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: auto;
+    display: block;
+    width: 40%;
+    text-align: center;
+    transition: 0.5s all;
+}
+
+.link:hover {
+    background-color: #483D3F;
+    text-decoration: none;
+
+}
+
+.link2 {
+    color: #77685D;
+    text-decoration: none;
+    font-style: italic;
+    }
+
+.link2:hover {
+    color: #483D3F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.foto {
+    float: right;
+    margin-right: 10%;
+}
+
+.descricao {
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    background-color: white;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.orgulho {
+    clear: both;
+}
+
+.impar {
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+ul li {
+    list-style: square;
+}
