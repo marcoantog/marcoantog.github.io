@@ -1,6 +1,6 @@
 body {
-    background-color: #F4EBD9;
     font-family: sans-serif;
+    background-color: #F4EBD9
 }
 
 h1 {
@@ -58,20 +58,25 @@ h2 {
 
 .foto {
     float: right;
-    margin-right: 10%;
+    margin-right: 15%;
+    margin-bottom: 3%;
 }
 
 .descricao {
     float: left;
-    width: 50%;
+    width: 30%;
     margin-left: 10%;
     background-color: white;
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 1%;
 }
 
 .orgulho {
     clear: both;
+    background-color: #f3e5ca;
+    background-size: cover;
+    padding: 1em 20px;
+    margin: -8px;
 }
 
 .impar {
@@ -81,4 +86,10 @@ h2 {
 
 ul li {
     list-style: square;
+}
+
+.habilidade {
+    clear: both;
+    padding: 1em 20px;
+    margin: -8px;
 }
